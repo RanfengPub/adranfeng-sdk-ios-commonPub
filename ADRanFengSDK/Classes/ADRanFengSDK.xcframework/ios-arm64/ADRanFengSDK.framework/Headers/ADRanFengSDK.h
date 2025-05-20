@@ -1,7 +1,7 @@
 //
 //  ADRanFengSDK.h
 //  ADRanFengSDK
-//  2.2.9.3
+//  2.2.9.4
 //  Created by Erik on 2021/9/11.
 //  Updated by Wosun on 2024/09/24 09:24.
 //

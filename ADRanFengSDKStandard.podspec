@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ADRanFengSDKStandard'
-  s.version          = '2.2.9.3'
+  s.version          = '2.2.9.4'
   s.summary          = 'A short description of ADRanFengSDK.'
 
   s.description      = <<-DESC
