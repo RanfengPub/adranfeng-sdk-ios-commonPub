@@ -1,3 +1,3 @@
 标准版SDK 
 
-pod 'ADRanFengSDKStandard', '~> 2.2.9.3'
+pod 'ADRanFengSDKStandard', '~> 2.2.9.4'
