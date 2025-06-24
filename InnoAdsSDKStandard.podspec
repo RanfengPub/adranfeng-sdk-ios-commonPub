@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'InnoAdsSDKStandard'
   s.version          = '2.2.9.5'
-  s.summary          = 'A short description of ADRanFengSDK.'
+  s.summary          = 'A short description of InnoAdsSDK.'
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -20,13 +20,13 @@ TODO: Add long description of the pod here.
   s.author           = {"business@ssdmobile.cn"=>"business@ssdmobile.cn"}
   s.source           = { :git => 'https://github.com/RanfengPub/adranfeng-sdk-ios-commonPub.git', :tag => s.version.to_s }
   
-  s.vendored_frameworks = 'ADRanFengSDK/Classes/*.xcframework'
+  s.vendored_frameworks = 'InnoAdsSDK/Classes/*.xcframework'
 
   s.dependency 'ADRFMediationKitPub', '~> 0.7.4.12032'
   s.dependency 'ADRFMediationNetworkPub', '~> 0.2.1.0'
   s.dependency 'ADRFMediationLocationManagerPub', '~> 0.2.1.01301'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
   s.static_framework = true
   s.requires_arc = true
   s.frameworks = "StoreKit","WebKit"
