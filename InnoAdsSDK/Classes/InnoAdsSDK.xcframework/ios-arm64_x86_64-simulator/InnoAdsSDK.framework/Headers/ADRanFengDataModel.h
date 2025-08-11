@@ -30,6 +30,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) NSString *appIntroductionUrl;
 
+@property (nonatomic, copy) NSString *regNumber;
+
 @end
 
 @interface ADRanFengVideoModel : NSObject
@@ -39,6 +41,20 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger duration;
 
 @property (nonatomic, assign) NSInteger forceDuration;
+
+@property (nonatomic, assign) NSInteger width;
+
+@property (nonatomic, assign) NSInteger height;
+
+@end
+
+@interface ADRanFengImageModel : NSObject
+
+@property (nonatomic, copy) NSString *url;
+
+@property (nonatomic, assign) NSInteger width;
+
+@property (nonatomic, assign) NSInteger height;
 
 @end
 
@@ -86,10 +102,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *title;
 // 广告描述文案
 @property (nonatomic, copy) NSString *desc;
-// 图片链接
-@property (nonatomic, copy) NSString *imageUrl;
-// 多图链接
-@property (nonatomic, strong) NSArray<NSString *> *imageUrlList;
+// 图片配置信息
+@property (nonatomic, strong) ADRanFengImageModel *image;
+// 多图配置信息
+@property (nonatomic, strong) NSArray<ADRanFengImageModel *> *imageList;
 // deeplink地址(scheme跳转字段)
 @property (nonatomic, copy) NSString *deeplinkUrl;
 // universalLink地址

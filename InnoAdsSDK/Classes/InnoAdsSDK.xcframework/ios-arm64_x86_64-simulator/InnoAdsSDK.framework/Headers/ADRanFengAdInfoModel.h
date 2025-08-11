@@ -109,6 +109,26 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, assign) NSInteger imageHeight;
 
+/**
+ 视频宽度
+ */
+@property (nonatomic, assign) NSInteger videoWidth;
+
+/**
+ 视频高度
+ */
+@property (nonatomic, assign) NSInteger videoHeight;
+
+/**
+ 视频总时长
+ */
+@property (nonatomic, assign) NSInteger videoDuration;
+
+/**
+ 视频强制播放时间
+ */
+@property (nonatomic, assign) NSInteger videoForceDuration;
+
 @end
 
 NS_ASSUME_NONNULL_END

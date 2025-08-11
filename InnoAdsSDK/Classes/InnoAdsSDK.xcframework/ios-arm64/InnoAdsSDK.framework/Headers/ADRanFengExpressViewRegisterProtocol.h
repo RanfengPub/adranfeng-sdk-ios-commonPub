@@ -76,6 +76,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, copy) NSString *appIntroductionUrl;
 
+/**
+ 应用备案号
+ */
+@property (nonatomic, copy) NSString *regNumber;
+
 @end
 
 @protocol ADRanFengExpressViewRegisterProtocol <NSObject>
@@ -126,11 +131,6 @@ NS_ASSUME_NONNULL_BEGIN
  自渲染信息流关闭按钮响应方法（会回调关闭）
  */
 - (void)ranfeng_close;
-
-/**
- 模板信息流重设广告尺寸
- */
-- (void)ranfeng_setFrame:(CGRect)frame;
 
 /**
  广告是否超时

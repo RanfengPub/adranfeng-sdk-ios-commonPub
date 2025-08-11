@@ -8,6 +8,7 @@
 #import <UIKit/UIKit.h>
 #import <InnoAdsSDK/ADRanFengCommonDefine.h>
 #import "ADRanFengAdInfoModel.h"
+
 NS_ASSUME_NONNULL_BEGIN
 @class ADRanFengBannerAdView;
 

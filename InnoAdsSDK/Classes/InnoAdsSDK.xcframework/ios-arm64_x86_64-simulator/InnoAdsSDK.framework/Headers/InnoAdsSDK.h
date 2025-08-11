@@ -1,7 +1,7 @@
 //
 //  InnoAdsSDK.h
 //  InnoAdsSDK
-//  2.2.9.5
+//  3.0.1.2
 //  Created by Erik on 2021/9/11.
 //  Updated by Wosun on 2024/09/24 09:24.
 //

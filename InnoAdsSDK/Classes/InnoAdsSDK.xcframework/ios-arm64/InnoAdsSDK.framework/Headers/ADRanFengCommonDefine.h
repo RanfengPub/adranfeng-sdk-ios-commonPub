@@ -35,6 +35,13 @@ typedef NS_ENUM(NSUInteger, ADRanFengInterstitialMaterialStyle) {
 
 };
 
+/// 横幅尺寸
+typedef NS_ENUM(NSUInteger, ADRanFengBannerSize) {
+    ADRanFengBannerSize640100 = 0,
+    ADRanFengBannerSize600150 = 1,
+    ADRanFengBannerSize600260 = 2,
+};
+
 /// 支持屏幕样式
 typedef NS_ENUM(NSUInteger, ADRanFengAdSupportScreenType) {
     /// 0：默认 竖屏
@@ -132,6 +139,8 @@ FOUNDATION_EXPORT ADRanFengStyle _Nonnull const ADRanFengStyleFlowHORIZON_PIC;/*
 FOUNDATION_EXPORT ADRanFengStyle _Nonnull const ADRanFengStyleFlowLEFT_PIC_FLOW;/**< 左图右文 */
 FOUNDATION_EXPORT ADRanFengStyle _Nonnull const ADRanFengStyleFlowRIGHT_PIC_FLOW;/**< 左图右文 */
 
+FOUNDATION_EXPORT ADRanFengStyle _Nonnull const ADRanFengStyleBannerLEFT_PIC;/**< 左图右文 */
+FOUNDATION_EXPORT ADRanFengStyle _Nonnull const ADRanFengStyleBannerHORIZON_PIC;/**< 横版纯图 */
 // 过期提醒
 #define RFDeprecated(s) __attribute__((deprecated(s)))
 

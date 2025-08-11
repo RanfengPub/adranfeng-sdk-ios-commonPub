@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <InnoAdsSDK/ADRanFengCommonDefine.h>
 #import "ADRanFengAdInfoModel.h"
+#import "ADRanFengServerVerificationOptions.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -122,6 +123,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) ADRanFengAdSupportScreenType supportScreenType;
 
 /**
+ 如果设置了服务端验证，可以设置serverVerificationOptions属性
+*/
+@property (nonatomic, strong) ADRanFengServerVerificationOptions *serverVerificationOptions;
+
+/**
  加载广告数据
 */
 - (void)loadAdData;
@@ -166,6 +172,7 @@ NS_ASSUME_NONNULL_BEGIN
  获取广告相关信息，请一定在广告加载成功后获取
  */
 - (ADRanFengAdInfoModel *)getInfoData;
+
 @end
 
 NS_ASSUME_NONNULL_END

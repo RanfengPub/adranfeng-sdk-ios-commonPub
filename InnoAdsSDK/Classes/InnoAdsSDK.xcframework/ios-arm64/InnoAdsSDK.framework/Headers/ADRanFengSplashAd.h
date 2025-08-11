@@ -68,7 +68,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)ranfengSplashAdSkiped:(ADRanFengSplashAd *)splashAd;
 
 /**
- *  开屏广告关闭回调 & 若打开落地页，请结合使用 ranfengSplashAdCloseLandingPage 回调
+ *  开屏广告关闭回调
  */
 - (void)ranfengSplashAdClosed:(ADRanFengSplashAd *)splashAd;
 
@@ -146,9 +146,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  展示开屏广告（与loadAd或loadAdWithBottomView:一同使用，于成功回调后调用）
  @param window 开屏广告展示的window，若为自定义window需设置viewController
- @param bottomView 底部logo视图, 高度不能超过屏幕的25%
  */
-- (void)showInWindow:(UIWindow *)window withBottomView:(nullable UIView *)bottomView RFDeprecated("接口即将废弃，请使用showInWindow:");
 - (void)showInWindow:(UIWindow *)window;
 
 /// 广告是否超时
