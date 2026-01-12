@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'InnoAdsSDKStandard'
-  s.version          = '3.0.1.3'
+  s.version          = '3.0.5.1'
   s.summary          = 'A short description of InnoAdsSDK.'
 
   s.description      = <<-DESC

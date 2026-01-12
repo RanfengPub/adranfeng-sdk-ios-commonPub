@@ -1,9 +1,9 @@
 //
 //  InnoAdsSDK.h
 //  InnoAdsSDK
-//  3.0.1.3
+//  3.0.5.1
 //  Created by Erik on 2021/9/11.
-//  Updated by Wosun on 2025/11/06 09:24.
+//  Updated by Wosun on 2025/11/17 09:24.
 //
 
 #import <Foundation/Foundation.h>

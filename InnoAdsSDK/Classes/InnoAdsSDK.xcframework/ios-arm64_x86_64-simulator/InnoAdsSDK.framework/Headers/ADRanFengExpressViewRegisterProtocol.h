@@ -81,6 +81,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, copy) NSString *regNumber;
 
+/**
+ 应用图标
+ */
+@property (nonatomic, copy) NSString *appIconUrl;
+
 @end
 
 @protocol ADRanFengExpressViewRegisterProtocol <NSObject>

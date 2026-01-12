@@ -6,7 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ADRanFengDataModel.h"
 #import "ADRanFengExpressViewRegisterProtocol.h"
 #import "ADRanFengCommonDefine.h"
 
